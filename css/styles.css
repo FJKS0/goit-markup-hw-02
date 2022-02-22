@@ -1,0 +1,165 @@
+body {
+   --bg-color: #ffffff;
+   --bg-hero: #2f303a;
+   --footer-color: #2f303a;
+
+   --title: #212121;
+   --link: #212121;
+   --text-color: #757575;
+
+   --white: #ffffff;
+   --black: #000000;
+   --blue: #2196f3;
+   --grey: #f5f4fa;
+
+   font-family: 'Roboto', sans-serif;
+   color: var(--text-color);
+}
+
+/* HEADER */
+
+.logo {
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   line-height: 31px;
+   font-weight: 700;
+   color: var(--black);
+   text-decoration: none;
+}
+
+.logo-color {
+   color: var(--blue);
+}
+
+.logo-footer {
+   color: var(--white);
+}
+
+.list {
+   list-style: none;
+}
+
+.link {
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 500;
+   letter-spacing: 0.02em;
+   color: var(--link);
+   text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+   color: var(--blue);
+}
+
+.link-contact {
+   color: var(--text-color);
+}
+
+.section-hero {
+   background: var(--bg-hero);
+}
+
+.title-hero {
+   font-size: 44px;
+   line-height: 60px;
+   font-weight: 900;
+   letter-spacing: 0.06em;
+   color: var(--white);
+   text-transform: uppercase;
+}
+
+.button {
+   font-family: 'Roboto', sans-serif;
+   cursor: pointer;
+}
+
+.button-hero {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+
+   color: var(--white);
+   background-color: var(--blue);
+}
+
+.title {
+   font-weight: 700;
+   color: var(--title);
+   letter-spacing: 0.03em;
+}
+
+.title-section {
+   font-size: 36px;
+   line-height: 42px;
+}
+
+.title-feature {
+   font-size: 14px;
+   line-height: 16px;
+   text-transform: uppercase;
+}
+
+.section-team {
+   background: var(--grey);
+}
+
+.title-team {
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.text {
+   letter-spacing: 0.03em;
+}
+
+.text-feature {
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.text-team {
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.address {
+   font-style: normal;
+}
+
+.text-address {
+   font-size: 14px;
+   line-height: 24px;
+   color: var(--white);
+}
+
+.button-filter {
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 500;
+   letter-spacing: 0.03em;
+   color: var(--link);
+   background: var(--grey);
+}
+
+.button-filter:hover {
+   color: var(--white);
+   background: var(--blue);
+}
+
+.title-portfolio {
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
+}
+
+.text-filter {
+   font-size: 16px;
+   line-height: 30px;
+}
+
+.footer {
+   background: var(--footer-color);
+}
